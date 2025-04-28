@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Dynamic content (simple)
-const users = ['Alice', 'Bob', 'Charlie'];
+const users = ['Bhupesh', 'Tara', 'Vedansh'];
 
 app.get('/', (req, res) => {
   res.send(`<h1>Users List</h1><ul>${users.map(u => `<li>${u}</li>`).join('')}</ul>`);
